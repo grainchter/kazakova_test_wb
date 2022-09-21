@@ -1,0 +1,32 @@
+.selected {
+  color: green;
+  font-size: 24px;
+}
+
+form {
+  width: 500px;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+.mainContainer {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+  }
+
+input[type="text"] {
+    margin-bottom: 25px;
+    width: 200px;
+  }
+
+  label {
+    margin-bottom: 25px;
+  }
+
+button {
+    width: 150px;
+    height: 35px;
+}
+
+
